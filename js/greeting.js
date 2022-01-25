@@ -17,7 +17,7 @@ function onLoginSubmit(event) {
   localStorage.setItem(USERNAME_KEY, username);
   paintGreeting(username);
 }
-
+console.log("testing")
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if (savedUsername === null) {
